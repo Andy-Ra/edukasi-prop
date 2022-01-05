@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.flex-md-last{
+    -webkit-box-ordinal-group:2;
+    -webkit-order:1;
+    -ms-flex-order:1;
+    order:1
+}
+
+.jumbotron{
+    margin-bottom: 0 !important;
+}
+/** banner **/
+#banner{
+    background-size: cover;
+}
+
+#banner header{
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 170px;
+}
+
+/** button **/
+
+.edu-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.edu-green {
+    background: #00FFAD !important;
+    color: #192440 !important;
+}
+
+.edu-cta-wide {
+    width: 100%;
+}
+
+.edu-green:hover {
+    color: #ffffff !important;
+    background: #00e69c !important;
+}
+
+.edu-blue {
+    background: #192440 !important;
+    color: #ffffff !important;
+}
+
+.edu-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.edu-grey {
+    border: 2px solid #192440 !important;
+    color: #192440 !important;
+}
+
+.edu-grey:hover {
+    color: #ffffff !important;
+    background: #121a2e !important;
+}
+
+#benefit div img{
+    margin-top: 30px;
+    max-width: 80px;
+}
+
+.fitur img{
+    width: 100%;
+    max-width: 480px !important;
+}
+
+#fitur-satu {
+    background: linear-gradient(169deg, #ffffff 55%, #00FFAD 0);
+}
+
+#fitur-dua {
+    background: #00FFAD;
+}
+
+#daftar-harga{
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+#daftar-harga ul li {
+    padding: 5px 0;
+}
+
+#price-premium {
+    background: #192440;
+    color: #ffffff;
+}
+
+#partner-prnt{
+    height: 230px;
+}
+
+#partner img{
+    max-width: 160px;
+}
+
+#kontak{
+    background-size: cover;
+}
+
+#kontak ul li {
+    padding: 3px 0;
+}
+
+#kontak form {
+    color: #00FFAD;
+}
+
+#kontak form input,
+#kontak form textarea {
+    background: transparent;
+    border: 1px solid #00FFAD;
+    color: #ffffff;
+}
+
+#kopirek{
+    background: #192440;
+    padding: 2rem 3rem;
+}
+
+#kopirek #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+}
+
+#kopirek #social-media a i {
+    color: #192440;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#kopirek #social-media a:hover {
+    background: #00FFAD;
+}
+
+#kopirek #social-media a:hover i {
+    color: #ffffff;
+}
