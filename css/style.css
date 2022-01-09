@@ -35,6 +35,13 @@ button {
 
 /** button **/
 
+
+.btn-info:hover{
+    background: white !important;
+    color: black !important;
+    transition: all 0.3s ease 0s !important;
+}
+
 .edu-cta {
     border-radius: 22px !important;
     padding: 12px 30px !important;
