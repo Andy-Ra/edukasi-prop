@@ -16,6 +16,15 @@ button {
     order:1
 }
 
+/* .carousel{
+    width: 1250px !important;
+} */
+
+.carousel-inner{
+    width: 1250px !important;
+    justify-content: center;
+}
+
 .jumbotron{
     margin-bottom: 0 !important;
 }
@@ -35,6 +44,15 @@ button {
 
 /** button **/
 
+
+.btn-bunder{
+    border-radius: 50px !important;
+}
+
+.btn-outline-success{
+    color: #FFF !important;
+    width: 150px;
+}
 
 .btn-info:hover{
     background: white !important;
