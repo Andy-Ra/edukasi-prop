@@ -100,6 +100,9 @@ button {
     color: #ffffff !important;
     background: #121a2e !important;
 }
+.edu-promo-wide{
+    width: 90%;
+}
 
 #benefit div img{
     margin-top: 30px;
@@ -301,7 +304,8 @@ button {
     border-color: #eabd44;
 }
 .owl-prev,
-.owl-next{
+.owl-next
+{
     position: absolute;
     left: -3%;
 }
@@ -319,10 +323,12 @@ button {
     color: #ececec;
 }
 .owl-next:before{ content: "\f105"; }
+
 @media only screen and (max-width: 990px){
     .owl-theme .owl-controls,
     .owl-prev,
-    .owl-next{
+    .owl-next,
+    .carousel-control-prev{
         position: relative;
         left: 0;
         right: 0;
@@ -335,4 +341,57 @@ button {
     .testimonial .rating{
         right: 12px;
     }
+}
+
+
+/*promo*/
+.carousel-item{
+    height: auto;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 7%;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    left: -2%;
+    margin-left: 3%;
+    margin-top: 18%;
+
+}
+
+.carousel-control-next{
+    left: auto;
+    position: absolute;
+    right: -2%;
+    margin-right: 3%;
+    margin-top: 18%;
+}
+
+.promo button{
+    width: 90%;
+}
+
+.promo{
+    width: 310px;
+    margin-left: 60px;
+}
+
+#border-promo{
+    width: 310px;
+}
+.promo p{
+    margin-left: 15px;
+}
+
+#logo-promo{
+    width: 30px;
+}
+
+#info-diskon{
+    margin-top: 55px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-weight: bold;
 }
